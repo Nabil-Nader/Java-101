@@ -7,3 +7,16 @@ public class Main {
         System.out.println("hello");
     }
 }
+
+
+/*
+ * we Can model Physical Objects in code with classes
+ *
+ *  Class /blueprint
+ *      a blueprint containing a
+ *  set of attributes and behaviors that define an object
+ *
+ *
+ *
+ *
+ */
