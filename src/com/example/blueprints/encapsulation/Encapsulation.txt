@@ -1,0 +1,43 @@
+Encapsulation
+
+OOP programming principle
+
+Bind state and behavior together into a single unit
+
+Combine data and code acting on that data.
+
+-Java classes allow us to bind together data nad related functionality.
+
+we can implement parts of the encapsulation principle, In Java with classes.
+
+Benefits Of encapsulation
+    prevent classes from becoming tightly coupled
+    Easily modify the inner working od one class without,affecting the rest of the program
+
+
+Everything can't have direct access[requires restriction]
+    make a class's attributes hidden from other classes, using encapsulation.
+
+    provide a clear interface through public methods.
+
+
+In java, we can achieve  encapsulation by using access modifiers.
+
+Access Modifier
+    allows you to determine programmatically, where certain variable and method can be accessed in your code
+
+
+Private:only visible in the class.
+
+No modifier : visible in the package it lives in.
+
+protected:visible to package and all subclasses.
+
+public:everywhere
+
+
+Main methd is a public it invoke my JVM
+
+
+
+
