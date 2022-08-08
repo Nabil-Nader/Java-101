@@ -6,10 +6,14 @@ public class TreeMain {
         Tree myFavoriteMapleTree = new Tree(90,10,TreeType.MAPLE);
 
 
-       myFavoriteMapleTree.annonceTallTree();
+       myFavoriteMapleTree.announceTallTree();
 
 
-      myFavoriteOakTree.annonceTallTree();
+      myFavoriteOakTree.announceTallTree();
+
+        System.out.println(Tree.TRUNK_COLOR);
+
+        Tree.announceTree();
 
     }
 }
