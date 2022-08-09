@@ -9,11 +9,11 @@ public class Tree {
     //use the constructor to build instances
 
     // organize code into static and non-static member
-    public double height ;
+    private double height ;
 
-    public double treeTrunkInchess;
+    private double treeTrunkInchess;
 
-    public TreeType treeType ;
+    private TreeType treeType ;
 
     //every tree should have this color
     static Color TRUNK_COLOR = new Color(102,51,0);
@@ -60,14 +60,35 @@ public class Tree {
     }
 
 
+    public double getHeight() {
+        return height;
+    }
 
+    public void setHeight(double height) {
+        this.height = height;
+    }
 
+    public double getTreeTrunkInchess() {
+        return treeTrunkInchess;
+    }
 
+    public void setTreeTrunkInchess(double treeTrunkInchess) {
+        this.treeTrunkInchess = treeTrunkInchess;
+    }
 
+    public TreeType getTreeType() {
+        return treeType;
+    }
 
+    public void setTreeType(TreeType treeType) {
+        this.treeType = treeType;
+    }
 
+    public static Color getTrunkColor() {
+        return TRUNK_COLOR;
+    }
 
-
-
-
+    public static void setTrunkColor(Color trunkColor) {
+        TRUNK_COLOR = trunkColor;
+    }
 }

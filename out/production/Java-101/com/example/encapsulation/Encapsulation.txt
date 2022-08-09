@@ -36,10 +36,7 @@ protected:visible to package and all subclasses.
 public:everywhere
 
 
-Main method is a public it invokes my JVM
-
-one common class that use encapsulation is String Class
-
+Main methd is a public it invoke my JVM
 
 
 
