@@ -1,0 +1,9 @@
+polymorphism
+    the ability for an object or function to take many different forms.
+
+
+    runtime
+
+    compiler time
+
+

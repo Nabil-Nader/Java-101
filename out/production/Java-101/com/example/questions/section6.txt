@@ -1,0 +1,9 @@
+Mastering abstraction for technical interviews
+
+Abstraction
+    to hide implementation complexity so we can achieve generalization.
+
+    abstract class is like a template for class
+    where some functionality is not implemented yet
+    you can not instantiate directly, but other classes can extend and implement
+    the appropriate functionality
