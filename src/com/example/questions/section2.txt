@@ -1,0 +1,33 @@
+Understand the impact of Jigsaw
+
+    before java 9, a JAR was a uit of modularity,but weakly encapsulated its own element.
+    to fix this,java 9 had a project Jigsaw -> introduced a module system to Java
+    Modularizing the JDK, instead of using the entire JDK in your application
+
+
+
+Use optionals to avoid NullPointerExceptions
+    Option is a container object, which may or may not have a given value
+    to see if the value exist,you will use the isPresent(); [method]
+    to retrieve the value, you wu=ill use the get method
+
+
+
+Create Lambdas to pass functionality as data
+    before java 8 , whenever we created a function we have always had to put it inside of a class
+
+    we want to create a function on the fly?
+
+
+
+
+Use the Streams API to process collections
+ stream API makes code more concise.
+
+
+Discuss the pros and cons of local variable type inference
+local variable type inference helps collapse long class names and make your java code more concise.
+    [var].
+
+
+Leverage new switch expressions

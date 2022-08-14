@@ -1,0 +1,37 @@
+Mastering abstraction for technical interviews
+
+Abstraction
+    to hide implementation complexity so we can achieve generalization.
+
+    abstract class is like a template for class
+    where some functionality is not implemented, yet
+    you can not instantiate directly[is abstract; cannot be instantiated 'create a new object from it'], but other classes can extend and implement
+    the appropriate functionality.
+
+
+Add encapsulation to your programs to impress interviewers
+
+    Encapsulation
+        Binding an object's state and behaviours together.
+        In java, we achieve encapsulation by declaring all fields in a class as private
+        and writing a public method in the class to set and get their values.
+
+        it allows you to hide how values are stored and maintained.
+
+
+ Leveraging inheritance in your technical interview solutions
+    Inheritance
+        process where one class acquire the fields and method of another
+        through extension
+
+
+Use polymorphism to reduce complexity in coding interviews
+
+    Polymorphism
+        the ability for an object to take many forms
+
+
+        Run time
+            behaviour is determined at run time [override functionality]
+
+        Compiler Time 
