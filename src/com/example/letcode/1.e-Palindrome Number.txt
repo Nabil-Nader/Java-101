@@ -1,0 +1,22 @@
+Given an integer x, return true if x is palindrome integer.
+
+An integer is a palindrome when it reads the same backward as forward.
+
+For example, 121 is a palindrome while 123 is not.
+
+solve it without converting the integer to a string?
+
+for string
+
+class Solution {
+    public boolean isPalindrome(int x) {
+        String valueOfx = Integer.toString(x);
+        StringBuilder reverseWorld = new StringBuilder();
+        reverseWorld.append(valueOfx);
+        return valueOfx.equalsIgnoreCase(reverseWorld.reverse().toString());
+
+
+
+
+    }
+}

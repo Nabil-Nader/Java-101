@@ -1,0 +1,2 @@
+Linked list are linked may pointer,it can be changed or removed at anytime
+
