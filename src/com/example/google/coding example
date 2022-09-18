@@ -1,0 +1,23 @@
+How to: Work at Google — Example Coding/Engineering Interview
+
+input -> [1,2,3,9] sum = 8 => No
+input ->[1,2,4,4] sum = 8 => yes
+
+if you user 2 for loop it will be O(n^2) it works but we will stuck with time consuming
+keep in mind that tha number are sorted, so we can do Binary Search 1 +7 =8, 2+6 =8 and so on
+this will be Θ(log(n)) [  according to video it is a good answer but it is a kind of slow]
+in binary search we had to scan all element
+
+but we will do it as liner Θ(1)
+if first element + last element = given number [we find a match]
+    if it is bigger we will leave last element and go for the decrease by one
+    if it is smaller than given we will leave the first element and increase by one
+
+
+since array has a constant time in getting one element Θ(1)
+
+while (lower < higher )
+
+
+if data is not sorted we need a better approach
+we will use another DS for look up like HasTable => it also has a constant time for look up

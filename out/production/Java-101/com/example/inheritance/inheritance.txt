@@ -1,6 +1,0 @@
-Inheritance
-
-   an object-oriented principle where code is organized through class hierarchies
-
-
-subclass
