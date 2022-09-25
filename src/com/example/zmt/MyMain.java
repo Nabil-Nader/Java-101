@@ -1,4 +1,6 @@
-package com.example.zmt.arrays;
+package com.example.zmt;
+
+import com.example.zmt.arrays.MyDynamicArray;
 
 public class MyMain {
     public static void main(String[] args) {
