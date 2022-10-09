@@ -1,0 +1,49 @@
+all Java Interivwe you proprelly asked this question
+what is an object?
+it is like a capsule,contains data and behavior
+Object are instances of class -> and a class like template from which objects are created
+
+Object is a combination of 2 things
+    -state of object stored as member variables
+
+    -set of method that give object ability to perform certain tasks
+
+
+
+
+----------------------------------------
+
+What is encapsulation?
+
+https://www.linkedin.com/search/results/content/?keywords=encapsulation&origin=SWITCH_SEARCH_VERTICAL&sid=05!
+
+    as software engineers we like to encapsulate objects
+
+    the thing we want to encapsulate -> are data and methods
+    that related to a single concept.
+
+    there is 2 thing we wish to achieve through encapsulation
+
+    1-restrict access to private data[that's information specific to that class],
+    like how the internal working of the class,would be showing to outside world
+
+    2-we want to use encapsulation to clump data and functionality together,we want to keep object self-suffusion
+    and independent of each other
+
+
+encapsulation refers simply to bundling the data,with the operations on that data.
+So you have a class encapsulating data - fields - along with the methods for manipulating that data.
+
+one of the points of bundling data and methods is to hide the implementation.
+
+----------------------------------------
+before go into Design pattern, we need to understand
+
+-interfaces
+-inheritance
+-polymorphism
+
+github.com/joonspoon/madecraft-oop
+
+
+

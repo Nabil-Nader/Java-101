@@ -1,0 +1,5 @@
+intro:
+how to truly make use of OOP features
+
+learn J-Unit,UML, OOP.
+

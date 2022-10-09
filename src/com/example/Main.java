@@ -3,18 +3,14 @@ package com.example;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("hello");
 
-        var a = "a";
-        var b = "a";
+        String st = " hello       world    =";
+        System.out.println(st);
 
-        if(a==b){
-            System.out.println("true");
-        }else{
-            System.out.println("false");
+        st = st.replaceAll("\\s+$", "");
+        System.out.println(st);
 
-        }
+
     }
 }
 
